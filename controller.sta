@@ -1,0 +1,61 @@
+
+ROM used: 1646 (20%)
+          1646 (20%) including unused fragments
+
+          1 Average locations per line
+          6 Average locations per statement
+
+RAM used: 25 (7%) at main() level
+          50 (14%) worst case
+
+Stack used: 4 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  413   293 100  TCC.c
+  425     0   0  ..\..\..\..\..\PROGRA~2\PICC\devices\16f887.h
+  283     0   0  regs_887.h
+----- -----
+ 1121   293 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+ Inline        1             @delay_ms1
+0    151   9   1  1775  6.4  main
+0    174  11   0   904  4.8  controla_temperatura
+0    169  10   1  2602  5.5  liga_aquecimento
+0     85   5   1   894  2.9  liga_ventilacao
+0    495  30   4   653  7.1  coleta_dados
+0     29   2   2             @ITOF
+0    117   7  13             @MULFF
+0    202  12  14             @DIVFF
+0     31   2   4             @SFTOI
+ Inline       16             @ADDFF
+0     12   1   0   136  1.8  inicializa_timer1
+0     18   1   0   158  1.8  inicializa_ad
+0     58   4   0   697  3.8  interrupcao_timer1
+0     49   3   2   354  4.2  interrupcao_externa
+
+Program metrics:
+    Functions               9
+    Statements              293
+    Comments                231
+    Volume (V)              11746
+    Difficilty (D)          38.3
+    Effort to implement (E) 450316
+    Time to implement (T)   6 hours, 57 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   46
+    Maintainability (MI)    126
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00037    52  0  
+00038-007FF  1590  402  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

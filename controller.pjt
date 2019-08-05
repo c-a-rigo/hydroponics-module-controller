@@ -1,0 +1,52 @@
+[Directories]
+Include=C:\PROGRA~2\PICC\devices\;C:\PROGRA~2\PICC\drivers\;
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=TCC.hex
+Development_Mode=
+Processor=0x887F
+Processor_Text=PIC16F887
+ToolSuite=CCS
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+[TCC.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Users\gggg\Desktop\Código Final\TCC.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=TCC.c
+[Opened Files]
+1=TCC.c
+2=
+3=..\..\..\Desktop\Teste placa.c
+4=
